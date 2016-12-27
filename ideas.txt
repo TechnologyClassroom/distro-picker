@@ -1,0 +1,11 @@
+Do you want a package manager? yes, no
+
+Do you want a GUI? yes, no
+
+What type of GUI would you like?  low resource keyboard only, low resource, lots of eye candy with heavy resource usage
+
+How Libre do you want to be?  Entirely free software, some free software, Only proprietary software
+
+Do you want the option to purchase support?  No, I can search for answers myself, Yes, I want a phone number to call
+
+Type of computer?  Phone/Tablet, Netbook, Desktop, Server
