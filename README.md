@@ -4,7 +4,9 @@
 
 Distro-Picker is unfinished and under construction.
 
-https://technologyclassroom.github.io/distro-picker/
+Website: https://technologyclassroom.github.io/distro-picker/
+
+Code: https://github.com/TechnologyClassroom/distro-picker/tree/gh-pages
 
 If you want to help, make a fork.
 
