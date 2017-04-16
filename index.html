@@ -28,12 +28,12 @@
     <p>Many paths do not have ends.
     <div id="ci-wrap">
         <div id="ci">
-            <div id="slide-1" class="ci-slide">
+            <div id="slide-1" class="ci-slide"><!-- Intro slide -->
                 <h2>Welcome to Disto-Picker</h2>
                 <p>Feeling overwhelmed by choice?  Distro-Picker is here to help.</p>
                 <button class="ci-nav" path="slide-2">Let's Go!</button>
             </div>
-            <div id="slide-2" class="ci-slide">
+            <div id="slide-2" class="ci-slide"><!-- 1st Question -->
                 <h2 class="clear">What type of environment are you deciding for?</h2>
                 <p>Will you be tinkering at home or at work?</p>
                 <!-- <p><img src="img/clint-eastwood-agrees.gif"></p> -->
@@ -41,51 +41,49 @@
                 <button class="ci-nav" path="slide-4">Office/Corporate</button>
                 <p>Generalities: corporate environments tend to use older stable packages.  Individuals tend to use new packages.
             </div>
-            <div id="slide-3" class="ci-slide"><!-- Answer Home/Personal -->
+            <div id="slide-3" class="ci-slide"><!-- 2nd Q Answer Home/Personal -->
                 <h2>Loads of Buttons</h2>
                 <p>How Libre do you want your system to be?</p>
                 <button class="ci-nav" path="slide-5">Absolute freedom</button>
                 <button class="ci-nav" path="slide-6">Mostly free software</button>
                 <button class="ci-nav" path="slide-7">Proprietary</button>
             </div>
-            <div id="slide-4" class="ci-slide"><!-- Answer Office/Corporate -->
+            <div id="slide-4" class="ci-slide"><!-- 2nd Q Answer Office/Corporate -->
                 <h2>Do you want the option to purchase support?</h2>
                 <button class="ci-nav" path="slide-8">No, I can search for answers myself.</button>
                 <button class="ci-nav" path="slide-9">Yes, I want a phone number to call.</button>
             </div>
-            <div id="slide-5" class="ci-slide">
+            <div id="slide-5" class="ci-slide"><!-- 3rd Q H/P Absolute freedom -->
                 <h2>Loads of Buttons</h2>
                 <p>How Libre do you want your system to be?</p>
                 <button class="ci-nav" path="slide-5">Absolute freedom</button>
                 <button class="ci-nav" path="slide-6">Mostly free software</button>
                 <button class="ci-nav" path="slide-7">Proprietary</button>
             </div>
-            <div id="slide-6" class="ci-slide">
+            <div id="slide-6" class="ci-slide"><!-- 3rd Q H/P Mostly free software -->
                 <h2>Loads of Buttons</h2>
                 <p>How Libre do you want your system to be?</p>
                 <button class="ci-nav" path="slide-5">Absolute freedom</button>
                 <button class="ci-nav" path="slide-6">Mostly free software</button>
                 <button class="ci-nav" path="slide-7">Proprietary</button>
             </div>
-            <div id="slide-7" class="ci-slide">
-                <h2>Loads of Buttons</h2>
-                <p>How Libre do you want your system to be?</p>
-                <button class="ci-nav" path="slide-5">Absolute freedom</button>
-                <button class="ci-nav" path="slide-6">Mostly free software</button>
-                <button class="ci-nav" path="slide-7">Proprietary</button>
+            <div id="slide-7" class="ci-slide"><!-- 3rd Q H/P Proprietary Dead End-->
+                <h2>That was a trick answer!</h2>
+                <p>Proprietary systems do not give the user any freedom.  If you really want a proprietary system, use <a href="https://www.apple.com/ios/">Apple iOS</a>, <a href="https://www.apple.com/macos/">Apple macOS</a>, and <a href="https://www.microsoft.com/en-us/windows/">Microsoft Windows</a>.</p>
+                <p>If you really must use a proprietary system, consider dual-booting or virtual machines.
+                <button class="ci-nav" path="slide-1">Restart</button>
             </div>
-            <div id="slide-8" class="ci-slide"><!-- Answer Home/Personal -->
+            <div id="slide-8" class="ci-slide"><!-- 3rd Q O/C No, I can search for answers myself. -->
                 <h2>Loads of Buttons</h2>
                 <p>How Libre do you want your system to be?</p>
                 <button class="ci-nav" path="slide-80">Mostly free software</button>
                 <button class="ci-nav" path="slide-7">I do not care</button>
             </div>
-            <div id="slide-5" class="ci-slide">
-                <h2>Loads of Buttons</h2>
-                <p>How Libre do you want your system to be?</p>
-                <button class="ci-nav" path="slide-5">Absolute freedom</button>
-                <button class="ci-nav" path="slide-6">Mostly free software</button>
-                <button class="ci-nav" path="slide-7">Proprietary</button>
+            <div id="slide-9" class="ci-slide"><!-- 3rd Q O/C Yes, I want a phone number to call. -->
+                <h2>What is your favorite color?</h2>
+                <button class="ci-nav" path="slide-88">Red</button>
+                <button class="ci-nav" path="slide-96">Purple</button>
+                <button class="ci-nav" path="slide-97">Green</button>
             </div>
             <div id="slide-80" class="ci-slide">
                 <h2>You should use Debian Stable</h2>
@@ -164,7 +162,7 @@
                 <p><a href="https://www.debian.org/">Home page</a></p>
                 <p><a href="https://www.debian.org/distrib/">Download</a></p>
                 <p><a href="https://www.debian.org/support">Documentation</a></p>
-                <p>Debian is a highly regarded distribution that many others are based on.  The default install contains 100% free software.  Stay away from the non-free repo if you want to keep it that way.</a>
+                <p>Many businesses use RHEL.  If you can afford support, your business can help fund the project.</a>
                 <p>Look into <a href="https://libreboot.org/">Libreboot</a> too.</p>
                 <button class="ci-nav" path="slide-1">Restart</button>
             </div>
@@ -219,7 +217,6 @@
                 <p><a href="https://www.debian.org/distrib/">Download</a></p>
                 <p><a href="https://www.debian.org/support">Documentation</a></p>
                 <p>Debian is a highly regarded distribution that many others are based on.  The default install contains 100% free software.  Stay away from the non-free repo if you want to keep it that way.</a>
-                <p>Look into <a href="https://libreboot.org/">Libreboot</a> too.</p>
                 <button class="ci-nav" path="slide-1">Restart</button>
             </div>
             <div id="slide-95" class="ci-slide">
@@ -228,7 +225,18 @@
                 <p><a href="https://www.debian.org/distrib/">Download</a></p>
                 <p><a href="https://www.debian.org/support">Documentation</a></p>
                 <p>Debian is a highly regarded distribution that many others are based on.  The default install contains 100% free software.  Stay away from the non-free repo if you want to keep it that way.</a>
-                <p>Look into <a href="https://libreboot.org/">Libreboot</a> too.</p>
+                <button class="ci-nav" path="slide-1">Restart</button>
+            </div>
+            <div id="slide-96" class="ci-slide">
+                <h2>You should use Ubuntu with support</h2>
+                <p><a href="https://buy.ubuntu.com/">Purchase</a></p>
+                <p>Many businesses use Ubuntu.  If you can afford support, your business can help fund the project.</a>
+                <button class="ci-nav" path="slide-1">Restart</button>
+            </div>
+            <div id="slide-97" class="ci-slide">
+                <h2>You should use SUSE Enterprise Linux OS</h2>
+                <p><a href="www.suse.com/Enterprise/Linux">Purchase</a></p>
+                <p>Some businesses use SUSE.  If you can afford support, your business can help fund the project.</a>
                 <button class="ci-nav" path="slide-1">Restart</button>
             </div>
             <div id="slide-100" class="ci-slide">
